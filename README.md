@@ -311,7 +311,9 @@ AssetBundles 依赖关系的发生是因为：
 
 #### AssetBundle.LoadFromMemoryAsync
 
- AssetBundle.LoadFromMemoryAsync（byte[] binary）
+```c#
+AssetBundle.LoadFromMemoryAsync(byte[] binary)
+```
 
 参数是：字节数组
 
