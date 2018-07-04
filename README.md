@@ -52,7 +52,7 @@ AssetBundle 中保存了资源之间的依赖关系（dependencies）
 3. 在左边的下拉菜单中点击 `new` ，并输入对应的 AssetBundle名。注意，AssetBundle名支持文件夹命名方式，即以`/` 分隔开，例如，`environment/forest`
 4. 在设置AssetBundle之后，可以继续在右边的下拉菜单中设置变量名。当然，**变量名不是必需的**。
 
-注：更多打包策略，详见 [Preparing Assets for AssetBundles](#Preparing Assets for AssetBundles)
+注：更多打包策略，详见【Preparing Assets for AssetBundles】
 
 ### 第二步：创建AssetBundles
 
@@ -83,7 +83,7 @@ public class CreateAssetBundles
 
 打成的AssetBundle资源包，根据代码放在 `assetBundleDirectory` 路径下。
 
-注：更多关于代码操作，详见[Building AssetBundles](#Building AssetBundles)
+注：更多关于代码操作，详见【Building AssetBundles】
 
 ### 第三步：上传AssetBundle至非本地存储
 
@@ -157,7 +157,7 @@ IEnumerator InstantiateObject()
 
 例如，在场景中创建一个GameObject，只需要调用`Instantiate(cube)` 即可。 
 
-注：更多关于读取AssetBundle中的资源问题，详见 [Using AssetBundles Natively](#Using AssetBundles Natively)
+注：更多关于读取AssetBundle中的资源问题，详见【Using AssetBundles Natively】
 
 
 
@@ -217,7 +217,7 @@ IEnumerator InstantiateObject()
 
 # Building AssetBundles
 
-在 [AssetBundle Workflow](#AssetBundle Workflow) 中简单介绍了
+在【AssetBundle Workflow】中简单介绍了
 
 ```
 BuildPipeline.BuildAssetBundles()
@@ -277,7 +277,7 @@ N个资源打包后，会出现 2*(N+1) 个文件，会预想中多出来两个�
 - 依赖关系
 - 循环校验码等其他信息
 
-注：更多AssetBundle文件和Manifest文件信息，详见[Using AssetBundles Natively](#Using AssetBundles Natively) 
+注：更多AssetBundle文件和Manifest文件信息，详见【Using AssetBundles Natively】
 
 
 
@@ -304,7 +304,7 @@ AssetBundles 依赖关系的发生是因为：
 
 - AssetBundle.LoadFromMemoryAsync
 - AssetBundle.LoadFromFile
-- WWW.LoadfromCacheOrDownload *（被弃用）*
+- WWW. LoadfromCacheOrDownload *（被弃用）*
 - UnityWebRequest 的 DownloadHandlerAssetBundle *（Unity 5.3 or newer）*
 
 不同的平台、不同的压缩方式，各种表现不同
