@@ -1,7 +1,8 @@
-# Unity-AssetBundles
-以下内容翻译、学习自AssetBundle官方文档 https://docs.unity3d.com/Manual/AssetBundlesIntro.html
+注：以下内容翻译、整理自AssetBundle官方文档 https://docs.unity3d.com/Manual/AssetBundlesIntro.html
 
 ![20180704185737](../Images/20180704185737.jpg)
+
+   
 
 
 
