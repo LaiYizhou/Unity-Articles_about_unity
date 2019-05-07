@@ -10,7 +10,7 @@
 
 
 
-### ○ [Unity游戏的GC优化](Articles/Optimizing_garbage_collection_in_Unity_games.md)
+### ○ [Unity游戏中的GC优化](Articles/Optimizing_garbage_collection_in_Unity_games.md)
 
 原文地址：<https://unity3d.com/cn/learn/tutorials/topics/performance-optimization/optimizing-garbage-collection-unity-games>
 
